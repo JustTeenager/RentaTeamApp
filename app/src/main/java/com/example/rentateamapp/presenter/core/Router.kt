@@ -28,14 +28,22 @@ class Router @Inject constructor() {
     }
 
     fun showAboutFragment(fm: FragmentManager) {
+        clearBackStack(fm)
         showFragment(fm, AboutFragment())
     }
 
     fun showUsersListFragment(fm: FragmentManager) {
+        clearBackStack(fm)
         showFragment(fm, UsersListFragment())
     }
 
     fun showUserDetailsFragment(fm: FragmentManager, user: User) {
         showFragment(fm, UserDetailsFragment.getInstance(user), true)
+    }
+
+    private fun clearBackStack(fm: FragmentManager) {
+        for (i in 0 until fm.backStackEntryCount) {
+            fm.popBackStack()
+        }
     }
 }
