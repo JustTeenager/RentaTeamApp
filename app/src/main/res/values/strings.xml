@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RentaTeamApp</string>
+    <string name="about_title">Тестовое задание для Rentateam</string>
+    <string name="bottom_nav_title_list">Список</string>
+    <string name="bottom_nav_title_about">О программе</string>
+    <string name="server_error">На сервере произошла ошибка!</string>
+    <string name="connection_error">Проверьте соединение с интернетом!</string>
+    <string name="list_btn_descr_restart">Повторить</string>
+    <string name="list_descr_empty">Нет элементов</string>
+</resources>
