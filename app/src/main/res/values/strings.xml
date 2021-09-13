@@ -6,5 +6,4 @@
     <string name="server_error">На сервере произошла ошибка!</string>
     <string name="connection_error">Проверьте соединение с интернетом!</string>
     <string name="list_btn_descr_restart">Повторить</string>
-    <string name="list_descr_empty">Нет элементов</string>
 </resources>
